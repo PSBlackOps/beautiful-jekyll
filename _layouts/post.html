@@ -3,6 +3,8 @@ layout: base
 ---
 
 {% include header.html type="post" %}
+<!-- Look the author details up from the site config. -->
+{% assign author = site.data.authors[page.author] %}
 
 <div class="container">
   <div class="row">
@@ -32,6 +34,13 @@ layout: base
       {% endif %}
 
       <article role="main" class="blog-post">
+        <!-- Output author details if some exist. -->
+{% if author %}
+<span>
+    <!-- Personal Info. -->
+    Written by <a href="{{ author.twitter }}" target="_blank">{{ author.name }}</a>
+</span>
+{% endif %}
         {{ content }}
       </article>
 

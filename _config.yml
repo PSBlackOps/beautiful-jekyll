@@ -23,16 +23,14 @@ description: A collection of PowerShell information for the beginner and the pro
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  About Us: "aboutus"
   Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
-  Author's home: "http://deanattali.com"
+    - PowerShell Documentation: "https://docs.microsoft.com/en-us/powershell/"
+    - PowerShell GitHub: "https://github.com/PowerShell/PowerShell"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
+avatar: "/img/header-icon.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -64,7 +62,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: John Bruckler
+  name: PSBlackOps Team
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -73,7 +71,7 @@ author:
 social-network-links:
   rss: true
   email: "info@psblackops.com"
-  github: jpbruckl
+  github: psblackops
   twitter: psblackops
 #  reddit: yourname
 #  google-plus: +DeanAttali
@@ -135,7 +133,7 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "America/Detroit"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
