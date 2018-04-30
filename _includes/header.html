@@ -35,8 +35,13 @@
 			{% endif %}
 		  {% endif %}
 		  
-		  {% if include.type == "post" %}
-		  <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
+      {% if include.type == "post" %}
+      {{ author.name }}
+        {% if author %}
+          <span class="post-meta">Posted by {{ author.name }} on {{ page.date | date: "%B %-d, %Y" }}</span>
+        {% else %}
+          <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
+        {% endif %}
 		  {% endif %}
         </div>
       </div>
