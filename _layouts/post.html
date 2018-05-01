@@ -35,13 +35,6 @@ layout: base
       {% endif %}
 
       <article role="main" class="blog-post">
-        <!-- Output author details if some exist. -->
-{% if author %}
-<span>
-    <!-- Personal Info. -->
-    Written by <a href="{{ author.twitter }}" target="_blank">{{ author.name }}</a>
-</span>
-{% endif %}
         {{ content }}
       </article>
 
