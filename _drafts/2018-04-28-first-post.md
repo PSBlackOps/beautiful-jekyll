@@ -20,12 +20,26 @@ unlock all the mysteries for you.
 
 ## Where do I Even Start?
 
-Maybe you've only dabbled with PowerShell before. Maybe you've used/modified some scripts you found online. Maybe you got elected to 
-learn PowerShell for your team, or maybe you just decided it was time to add that skill to your repertoire. However the road started, 
-you're now staring at a PowerShell prompt asking yourself "Is there a command to do _____?".
+When people are new to PowerShell, they can be overwhelmed with all the things that can be done, or completely lost, with no idea 
+how to go about doing anything. PowerShell is growing all the time, but there are 2 
+[cmdlets](https://msdn.microsoft.com/en-us/library/ms714395(v=vs.85).aspx) that, once learned, will forever be in your toolbox.
 
-The answer, of course, is probably yes. PowerShell has a ton of built-in commands, and there are thousands of modules that offer additional 
-commands and functionality for your PowerShelling pleasure.
+Oh, if you're super new to PowerShell, you should know that all cmdlets follow the Verb Hyphen Noun pattern. For example:
+
+1. `New-Item`
+  * **Verb**: New
+  * **Noun**: Item
+1. `Get-ChildItem`
+  * **Verb**: Get
+  * **Noun**: ChildItem
+1. `Move-Item`
+  * **Verb**: Move
+  * **Noun**: Item
+
+### Get-Command
+
+The first of the commands you'll learn to love, is `Get-Command`. [Get-Command](https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Core/Get-Command?view=powershell-5.1)
+is used to find commands that can be run, based on a few criteria, and it accepts wildcards (the asterisk).
 
 {% highlight powershell %}
 Get-Help -Noun *Storage* -Online
