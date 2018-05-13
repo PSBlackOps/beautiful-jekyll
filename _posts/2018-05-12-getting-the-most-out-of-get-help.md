@@ -12,7 +12,7 @@ tags:
 - Getting started
 - PowerShell
 - rtpm
-author: jpbruckl
+author: jpbruckler
 ---
 
 This is the second in a series of articles about learning PowerShell. In this article, I'm going to concentrate on the many ways
@@ -20,7 +20,8 @@ to use the `Get-Help` cmdlet for function/cmdlet discovery, and usage.
 
 The first article can be found [here]({% post_url 2018-05-01-learn-to-rtpm %}).
 
-`Get-Help` is extremely flexible, and extremely valuable to the novice and advanced PowerShell developer alike. It can be used to find
+`Get-Help` is extremely flexible, and extremely valuable to the novice and advanced PowerShell developer alike. It can be used to
+find commands, discover 
 
 ## Get-Started
 
@@ -28,8 +29,9 @@ The first thing you need to know about `Get-Help` is that the help files aren't 
 crazy right? Microsoft made that decision to help with the issue of outdated or incorrect help files. The documentation for PowerShell
 is located online where it's easier to keep updated [^1]. 
 
-Online help isn't discoverable by `Get-Help` though, so the first thing to do is install the PowerShell help files locally on your system. You'll need an internet connection, and administrative rights on the machine
-you're installing help on. You can read all about `Update-Help` on [MSDN], but installing help locally is pretty easy.
+Online help isn't discoverable by `Get-Help` though, so the first thing to do is install the PowerShell help files locally on your
+system. You'll need an internet connection, and administrative rights on the machine you're installing help on. You can read all about
+`Update-Help` on [MSDN], but installing help locally is pretty easy.
 
 1. Open an administrative/elevated PowerShell prompt
     1. From within a normal PowerShell prompt, you can type `Start-Process powershell.exe -Verb RunAs` to create an elevated PowerShell
@@ -37,13 +39,13 @@ you're installing help on. You can read all about `Update-Help` on [MSDN], but i
 2. Type: `Update-Help`
 3. It's going to take a few minutes to run, but a progress bar will be shown as help files are downloaded and installed. ![update-help][img-update-help]
 4. When I installed help as part of writing this post, I received an error that the help files for 'WindowsUpdateProvider' couldn't be
-found and weren't downloaded. If you see something similar, that's OK.
+  found and weren't downloaded. If you see something similar, that's OK.
 
 ## Get-Help Basics
 
 The simplest way that `Get-Help` is used, is simply to give it the name of a function, cmdlet, or alias that you want to know about.
 
-__Note__: The output below is what you will see when issuing a `Get-Help` command after having installed the help files locally. If 
+__Note__: The output below is what you will see when issuing a `Get-Help` command after having installed the help files locally. If
 help files are not installed locally, you will still get basic syntax, but will not have access to the full help text for a command.
 
 ```powershell

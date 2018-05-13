@@ -66,7 +66,14 @@
 		  {% endif %}
 		  
 		  {% if include.type == "post" %}
-		  <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }} by <a href="{{ author.twitter }}" target="_blank">{{ author.name }}</a></span>
+      <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }} by <a href="{{ author.twitter }}" target="_blank">{{ author.name }}</a> - 
+        {% assign words = page.content | number_of_words %}
+          {% if words < 360 %}
+            1 minute read
+          {% else %}
+            {{ words | divided_by:180 }} minute read
+        {% endif %}
+      </span>
 		  {% endif %}
         </div>
       </div>
