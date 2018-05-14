@@ -27,7 +27,7 @@ Let's get started, with a simple example, by getting the command information for
 
 The results should look as they do below.
 
-![]({{"/img/posts/get-command-1.png" | absolute_url }} "'Get-Command -Name Get-Help' output")
+![]({{"/img/posts/get-command-1.PNG" | absolute_url }} "'Get-Command -Name Get-Help' output")
 
 As you can see, you can get information about the command you passed as the parameter argument to the parameter Name.
 
@@ -35,7 +35,7 @@ As you can see, you can get information about the command you passed as the para
 
 Let's take a side step for a minute and talk about arguments and parameters. Arguments are the names we use to identify how information is sent to the command. Parameters are the data that arguments take to help the command process the request. Take a look at the picture below. You can see that `-Name` is the argument and `Get-Help` is the parameter.
 
-![]({{"/img/posts/get-command-2.png" | absolute_url }} "Argument and Parameter image")
+![]({{"/img/posts/get-command-2.PNG" | absolute_url }} "Argument and Parameter image")
 
 We will go further into this and how to read help in a different  post, but this should get you what we need to press forward.
 
@@ -51,7 +51,7 @@ My personal favorite is `-Verb`. With the verb argument you can specify, as a pa
 
 A view of the output from the above command is below.
 
-![]({{"/img/posts/get-command-3.png" | absolute_url }} "'Get-Command -Noun 'Show'' Output")
+![]({{"/img/posts/get-command-3.PNG" | absolute_url }} "'Get-Command -Noun 'Show'' Output")
 
 If you run `Get-Command` all by itself, it gets you all of the following types of commands installed on your computer.
 
