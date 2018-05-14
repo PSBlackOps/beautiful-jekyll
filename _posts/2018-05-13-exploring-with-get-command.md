@@ -14,7 +14,7 @@ tags:
 _This is the second in series of posts about learning to explore and help yourself with PowerShell._
 _Other installments:_
 
-* _[Learning to Read the (PowerShell) Fabulous Manual]({% post_url 2018-05-01-learn-to-rtpm %)_
+* _[Learning to Read the (PowerShell) Fabulous Manual]({% post_url 2018-05-01-learn-to-rtpm %})_
 
 ## Why Get-Command
 
@@ -22,7 +22,7 @@ _Other installments:_
 
 Let's get started, with a simple example, by getting the command information for `Get-Help`.
 
-```PowerShell
+```powershell
     Get-Command -Name Get-Help
 ```
 
@@ -46,7 +46,7 @@ There are a few other arguments that are nice to have with Get-Command.
 
 My personal favorite is `-Verb`. With the verb argument you can specify, as a parameter, one of the following approved verbs and retrieve all the commands that start with that verb. (You can get a list of approved verbs by running the `Get-Verb` command.)
 
-```PowerShell
+```powershell
     Get-Command -Noun 'Show'
 ```
 
