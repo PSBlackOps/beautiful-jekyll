@@ -15,6 +15,7 @@ tags:
 _This is the first in series of posts about learning to explore and help yourself with PowerShell. As more installments are added
 they will be linked here._
 
+1. [Exploring with Get-Command]
 1. [Getting the most out of Get-Help]
 
 Matt and I have nearly 20 years of using PowerShell under our belts at this point, and have had the pleasure of helping drive the adoption
@@ -51,7 +52,7 @@ ask questions effectively, so I present to you:
 Basic information you're going to need to get started with PowerShell:
 
 1. All commands follow a `Verb-Noun` naming structure:
-![Verb-Noun][img-verb-noun]
+  ![Verb-Noun][img-verb-noun]
 2. There's a list of approved verbs. You can find them [online]("https://msdn.microsoft.com/en-us/library/ms714428(v=vs.85).aspx") or with `Get-Verb`
 3. There isn't a list of approved nouns ;)
 4. The 4 commands mentioned above (`Get-Help`, `Get-Command`, `Get-Member`, `Show-Command`)
@@ -87,7 +88,8 @@ Don't be afraid to experiment. Don't be afraid to fail. Don't be afraid to ask q
 seem to think that we're all born with the innate knowledge to solve our every problem on our own, but that's just not the
 case. Try not to get discouraged while you're learning.
 
-[Getting the most out of Get-Help]:{% post_url 2018-05-12-getting-the-most-out-of-get-help %}
+[Getting the most out of Get-Help]:{% post_url 2018-05-13-getting-the-most-out-of-get-help %}
+[Exploring with Get-Command]:{% post_url 2018-05-13-exploring-with-get-command %}
 [img-show-command]:{{"/img/posts/2018-05-01/show_command.png" | absolute_url }} "'Show-Command -Name Get-Help' output"
 [img-dunno]:{{"/img/posts/2018-05-01/dunno.jpg" | absolute_url}}
 [img-verb-noun]:{{"/img/posts/2018-05-01/cmdlet-anatomy.png" | absolute_url}}

@@ -21,7 +21,7 @@ use-site-title: true
 
     <p class="post-meta">
       Posted on {{ post.date | date: "%B %-d, %Y" }} by {{ author.name }} - 
-      {% assign words = page.content | number_of_words %}
+      {% assign words = post.content | number_of_words %}
           {% if words < 360 %}
             1 minute read
           {% else %}

@@ -8,6 +8,7 @@ tags:
 - Help
 - Getting started
 - PowerShell
+- rtpm
 ---
 
 _This is the second in series of posts about learning to explore and help yourself with PowerShell._
@@ -21,8 +22,8 @@ _Other installments:_
 
 Let's get started, with a simple example, by getting the command information for `Get-Help`.
 
-```PowerShell
-    Get-Command -Name Get-Help
+```powershell
+Get-Command -Name Get-Help
 ```
 
 The results should look as they do below.
