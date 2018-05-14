@@ -8,12 +8,13 @@ tags:
 - Help
 - Getting started
 - PowerShell
+- rtpm
 ---
 
 _This is the second in series of posts about learning to explore and help yourself with PowerShell._
 _Other installments:_
 
-* _[Learning to Read the (PowerShell) Fabulous Manual](2018-05-01-learn-to-rtpm.md)_
+* _[Learning to Read the (PowerShell) Fabulous Manual]({% post_url 2018-05-01-learn-to-rtpm %)_
 
 ## Why Get-Command
 
