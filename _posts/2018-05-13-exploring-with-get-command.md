@@ -71,6 +71,22 @@ Another thing you can do is get many more commands that can be run on the system
 
 This command run on my system produces 2,592 possible commands, functions, aliases, etc. on my system.
 
+## Get-Command to find applications
+
+You can use Get-Command to find other applications installed in your computer's PATH locations. You can view your path locations by typing the following at a command line.
+
+```powershell
+    $env:PATH
+```
+
+Say for example we wanted to find all the applications installed that started with the letter P. You would run the following command.
+
+```powershell
+    Get-Command P* -CommandType Application
+```
+
+This command on my system produces 53 items.
+
 ## Other Items of Note
 
 * If you run Get-Command and specify a command, PowerShell automatically loads the module that the command resides in. (We will cover modules in another post.)
