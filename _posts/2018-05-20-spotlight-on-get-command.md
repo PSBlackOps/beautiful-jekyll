@@ -92,4 +92,40 @@ as well as the properties and methods available with that object.
 
 Ok, so now what? We used `Get-Member`. I'm whelmed.
 
-Get-Member gives you a peak under the covers in
+`Get-Member` gives you a peak under the covers into objects, letting you interact with them in ways
+that are different or impossible with the built-in cmdlets. As an example, you can start and stop a
+service using the methods of the `System.ServiceProcess.ServiceController`.
+
+{% highlight powershell linenos %}
+PS C:\> Get-Process wuauserv
+
+Status   Name               DisplayName
+------   ----               -----------
+Stopped  wuauserv           Windows Update
+
+# Get the service and store a System.ServiceProcess.ServiceController
+# object in the $Service variable
+PS C:\> $Service = Get-Service wuauserv
+
+# Use the Status property of the object to see if the service is running
+# or stopped
+PS C:\> $Service.Status
+Stopped
+
+# Start the service using the Start method
+PS C:\> $Service.Start()
+
+# Print the status of the service again. When using the Start() method,
+# the object isn't automatically refreshed to reflect the running
+# status.
+PS C:\> $Service.Status
+Stopped
+
+# Use the Refresh method to refresh the object
+PS C:\> $Service.Refresh()
+
+# Print the status of the service again. This time the status shows that
+# the service is running.
+PS C:\> $Service.Status
+Running
+{% endhighlight %}
