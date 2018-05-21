@@ -19,6 +19,9 @@ _If you're coming to this with a background in OOP, or understand Objects in cod
 this post simplifies those concepts in order to appeal to the widest group of people, sometimes
 nuance is going to be lost._
 
+This is the fourth in a series of articles about learning PowerShell. The first article can be
+found [here]({% post_url 2018-05-01-learn-to-rtpm %}).
+
 `Get-Member` is an incredibly useful command, but can be confusing to people that are coming to
 PowerShell from a different scripting language. In most other scripting languages, you generally
 are dealing with data as strings or numbers (depending on the language you're coming from, there
@@ -129,3 +132,15 @@ PS C:\> $Service.Refresh()
 PS C:\> $Service.Status
 Running
 {% endhighlight %}
+
+The examples in teh code block above are commented, but one thing that's not mentioned
+in the code comments is the difference in how you reference a Method vs. how you 
+reference a Property.
+
+When you _call_ a Method, you use the Method name, followed by Parantheses. If the 
+Method takes parameters, those would be provided as a comma separated list within the
+Parentheses.
+
+When you call a Property, you just use the name of the Property.
+
+#

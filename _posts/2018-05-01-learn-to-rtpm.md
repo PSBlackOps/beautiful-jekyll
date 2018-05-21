@@ -17,6 +17,7 @@ they will be linked here._
 
 1. [Exploring with Get-Command]
 1. [Getting the most out of Get-Help]
+1. [Spotlight on Get-Member]
 
 Matt and I have nearly 20 years of using PowerShell under our belts at this point, and have had the pleasure of helping drive the adoption
 of the language where we work, and helping out people new to PowerShell in getting started. My mantra with new people is
@@ -90,6 +91,7 @@ case. Try not to get discouraged while you're learning.
 
 [Getting the most out of Get-Help]:{% post_url 2018-05-13-getting-the-most-out-of-get-help %}
 [Exploring with Get-Command]:{% post_url 2018-05-13-exploring-with-get-command %}
+[Spotlight on Get-Member]:{% post_url 2018-05-20-spotlight-on-get-member %}
 [img-show-command]:{{"/img/posts/2018-05-01/show_command.png" | absolute_url }} "'Show-Command -Name Get-Help' output"
 [img-dunno]:{{"/img/posts/2018-05-01/dunno.jpg" | absolute_url}}
 [img-verb-noun]:{{"/img/posts/2018-05-01/cmdlet-anatomy.png" | absolute_url}}
