@@ -17,7 +17,7 @@ author: mwjcomputing
 
 `Show-Command` is a neat feature and we decided to include it as part of the three commands that everyone needs to know to use PowerShell. I guess that would make four commands now that everyone using PowerShell needs to know.
 
-Show Me the Command!
+## Show Me the Command!
 
 `Show-Command` allows you to make a PowerShell command in a window. This window allows you to work through the available parameters that the command uses and then when done, run the command or copy the command to the clipboard. This is done complete with all the parameters you edited in the window.
 
@@ -31,7 +31,7 @@ If done, in the ISE the resulting Window looks like this:
 
 Pretty simple huh?
 
-**Features of Show-Command**
+## Features of Show-Command
 
 There are a few features of `Show-Command` and the resulting box you would want to be aware of.
 
@@ -51,7 +51,7 @@ Once you hit the arrow, the following area shows up.
 
 ![Show-Command Show Common Parameters Area][img-show-command-6]
 
-**Experience the Magic**
+## Experience the Magic
 
 Well, that is it with `Show-Command`. Time for you to go out and experience the magic of `Show-Command`. Remember to look at each tab if there are multiple tabs as you can find things you didn’t know existed with commands. Also, don’t be afraid to do `Show-Command` when just exploring PowerShell on your own. I know that John and I use this command frequently, especially when we are working with a new set of commands or a new module.
 
