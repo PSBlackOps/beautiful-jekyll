@@ -27,7 +27,7 @@ Show Me the Command!
 
 If done, in the ISE the resulting Window looks like this:
 
-![Show-Command in ISE][img-showcommand-2]
+![Show-Command in ISE][img-show-command-2]
 
 Pretty simple huh?
 
@@ -37,19 +37,19 @@ There are a few features of `Show-Command` and the resulting box you would want 
 
 First, the tabs that are displayed are displaying the parameter sets that the command can use. A parameter set is basically a set of parameters that work together. In the show command window, things that are mandatory are denoted with an asterisk, as seen below.
 
-![Show-Command mandatory parameter][img-showcommand-3]
+![Show-Command mandatory parameter][img-show-command-3]
 
 Secondly, you can do three things with `Show-Command`. You can inspect the commands parameters, copy your filled-out form to the clipboard and finally, you can run the command straight from the window. The first one is just a function of `Show-Command`. The second two are actual buttons at the bottom of the window as seen below.
 
-![Show-Command Copy and Run][img-showcommand-4]
+![Show-Command Copy and Run][img-show-command-4]
 
 Thirdly, you can fill out what PowerShell calls Common Parameters. Common parameters are parameters that should be on every command that PowerShell has or commands you add via modules. Common parameters include `-ErrorActionPreference`, `-Debug`, `-Force`, etc. We will go over Common Parameters in a future post as they are super important to understand. You need to hit the arrow to expand the list of common parameters.
 
-![Show-Command Show Common Parameters][img-showcommand-5]
+![Show-Command Show Common Parameters][img-show-command-5]
 
 Once you hit the arrow, the following area shows up.
 
-![Show-Command Show Common Parameters Area][img-showcommand-6]
+![Show-Command Show Common Parameters Area][img-show-command-6]
 
 **Experience the Magic**
 
