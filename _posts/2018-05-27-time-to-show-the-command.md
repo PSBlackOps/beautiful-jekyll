@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Time to Show the Command
-author: mwjcomputing
+date: 2018-05-27 12:00:00.000000000 -05:00
+published: true
+type: post
+status: publish
 categories:
 - Help
 tags:
@@ -9,6 +12,7 @@ tags:
 - Getting started
 - PowerShell
 - rtpm
+author: mwjcomputing
 ---
 
 `Show-Command` is a neat feature and we decided to include it as part of the three commands that everyone needs to know to use PowerShell. I guess that would make four commands now that everyone using PowerShell needs to know.
