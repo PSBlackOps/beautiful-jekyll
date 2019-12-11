@@ -16,12 +16,12 @@ back to the community, as well as challenging each other to get better.
 
 ### About Matt
 Matt Johnson is a senior information security engineering and design associate for a Fortune 500 company. 
-In addition to writing standards, driving the enterprise privileged account management solution deployment 
-and maintaining the corporate hardening standards, Matt designs, deploys and maintains corporate information
+In addition to writing standards, driving the enterprise privileged account management solution deployment, 
+and maintaining the corporate hardening standards, Matt designs, and deploys corporate information
 security solutions.
 
 In the past, Matt was a founding member of #misec and an organizer for Converge Detroit and BSides Detroit. 
-Matt currently is a member of the Michigan Cyber Civilian Corps, maintains the PoshSec PowerShell project,
+Matt currently maintains the PoshSec PowerShell project,
 and is the co-founder of PS Black Ops.
 
 Matt has spoken at numerous information security conferences including GrrCON, DerbyCon and several BSides
@@ -32,7 +32,6 @@ and playing video games.
 
 Fun facts:
 * Created the [PoshSec](https://github.com/PoshSec) PowerShell Module
-* Been using PowerShell since before it was cool
 * Likes video games, comic books and chilling with his son
 
 Contact me:
